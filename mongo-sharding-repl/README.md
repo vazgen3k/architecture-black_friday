@@ -25,3 +25,16 @@ docker compose up -d
 ```shell
 ./scripts/mongo-init.sh
 ```
+
+
+
+```shell
+docker compose stop
+```
+```shell
+docker system prune --volumes -f
+```
+
+```shell
+docker  volume ls
+```
